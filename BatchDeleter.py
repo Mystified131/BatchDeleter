@@ -14,6 +14,6 @@ for subdir, dirs, files in os.walk('C:\\Users\\mysti\\thomasoriginalcode\\Git\\'
 
 print("")
 
-print("WAV and MP3 files have been removed. Thank you.")
+print("The designated files have been removed. Thank you.")
 
 print("")
