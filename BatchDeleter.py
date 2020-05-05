@@ -9,7 +9,7 @@ for subdir, dirs, files in os.walk('C:\\Users\\mysti\\thomasoriginalcode\\Git\\'
     for file in files:
         filepath = subdir + os.sep + file
 
-        if (filepath.endswith(".wav")) :
+        if (filepath.endswith(".wav")) or (filepath.endswith(".sfk")) :
             os. remove(filepath) 
 
 print("")
