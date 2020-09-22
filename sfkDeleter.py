@@ -5,11 +5,18 @@ import re
 import collections
 import operator
  
-for subdir, dirs, files in os.walk('C:\\Users\\mysti\\Coding\\'):
+for subdir, dirs, files in os.walk('E:\\'):
     for file in files:
         filepath = subdir + os.sep + file
 
-        if (filepath.endswith(".wav")) or (filepath.endswith(".sfk")):
+        if filepath.endswith(".sfk") :
+            os. remove(filepath) 
+
+for subdir, dirs, files in os.walk('H:\\'):
+    for file in files:
+        filepath = subdir + os.sep + file
+
+        if filepath.endswith(".sfk") :
             os. remove(filepath) 
 
 print("")
